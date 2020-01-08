@@ -4,4 +4,8 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        camera.cpp \
         main.cpp
+
+HEADERS += \
+    camera.h
