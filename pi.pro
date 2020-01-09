@@ -4,11 +4,11 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        camera.cpp \
-        main.cpp
+        src/camera.cpp \
+        src/main.cpp
 
 HEADERS += \
-    camera.h
+    include/camera.h
 
 INCLUDEPATH += /usr/local/include \
                /usr/local/include/opencv \
